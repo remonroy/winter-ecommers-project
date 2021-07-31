@@ -1,0 +1,53 @@
+.footerBg {
+    background: #373b56;
+    height: 300px;
+    color: white;
+    padding: 20px 0px;
+}
+.footerLink ul {
+    padding: 0px;
+}
+.footerLink ul li a {
+    color: #ddd;
+    font-size: 14px;
+    line-height: 42px;
+    text-decoration: none;
+}
+
+.footerLink ul li {
+    list-style: none;
+}
+.footerLocation ul li a {
+    padding: 5px 8px;
+    color: #333;
+    background: orange;
+    border-radius: 50%;
+    height: 38px;
+    width: 38px;
+    text-align: center;
+}
+.footerLocation ul li {
+    list-style: none;
+    display: inline-flex;
+    padding: 0px 13px;
+}
+.footerLocation ul {
+    padding: 0px;
+}
+.footerLocation p {
+    font-size: 15px;
+}
+.footerLocation ul li a:hover {
+    background: #333;
+    color: white;
+}
+.footerGmail p {
+    border-bottom: 2px solid #ddd;
+    display: inline-block;
+    padding: 0px 0px 8px 0px;
+}
+@media screen and (max-width:780px) {
+    .footerBg {
+        height: 100%;
+    }
+}

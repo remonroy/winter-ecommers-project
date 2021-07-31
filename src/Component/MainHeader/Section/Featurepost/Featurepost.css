@@ -1,0 +1,41 @@
+.itemCard {
+   position: relative;
+   box-shadow: 13px 10px #ffdbe0;
+}
+.btn button {
+    border: none;
+    font-size: 16px;
+    padding: 6px 17px;
+    background: #767575;
+    color: #fff;
+    font-weight: bold;
+}
+.itemCard img{
+    width:98%
+}
+.descrip h4 {
+    font-size: 32px;
+}
+.descrip p {
+    font-family: "Yellowtail",cursive;
+    text-shadow: 0 -3px 0 #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+.descrip{
+    position: absolute;
+    top: 50%;
+    right: 23px;
+    transform: translateY(-41px);
+}
+@media screen and (max-width:780px) {
+    .descrip h4 {
+       font-size: 15px;
+    }
+    .descrip p {
+        font-size: 12px;
+    }
+    .itemCard{
+        box-shadow: 5px 5px #ffdbe0;
+    }
+}

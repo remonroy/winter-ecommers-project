@@ -1,0 +1,53 @@
+.Customar{
+    background: skyblue;
+    padding: 10px;
+    height: 100% ;
+    overflow: hidden
+}
+.mySwiper {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+.mySwiper img {
+    display: block;
+    width: 100%;
+}
+.swiper-container {
+    overflow: visible !important;
+}
+.fashion h3{
+    font-family: "Playfair Display",serif;
+    color: #000;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.fashion span{
+    font-family: "Playfair Display",serif;
+    font-size: 3rem;
+    font-weight: 700;
+    color: orange;
+}
+.fashion h3::before {
+    position: absolute;
+    content: '';
+    top: 54px;
+    left: 414px;
+    border-bottom: 4px solid tomato;
+    width: 163px;
+}
+
+.fashion {
+    position: relative;
+}
+@media screen and (max-width:780px) {
+    .fashion h3::before {
+        position: absolute;
+        content: '';
+        top: 54px;
+        left: 18%;
+        border-bottom: 4px solid tomato;
+        width: 163px;
+    }
+}

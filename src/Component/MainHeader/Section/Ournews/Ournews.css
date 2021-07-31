@@ -1,0 +1,67 @@
+.LetOur h1 {
+    font-family: "Playfair Display",serif;
+    font-size: 56px;
+    font-weight: 700;
+}
+.OurBg {
+    background: #87ceeb6e;
+    height: 320px;
+}
+.LetOur p {
+    color: #373b41;
+    font-size: 20px;
+    font-family: monospace;
+    font-style: italic;
+}
+
+.LetOur {
+    padding: 38px;
+}
+.inputFild button {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 30px;
+    position: absolute;
+    left: 202px;
+    background: orange;
+}
+.inputFild {
+    transform: translateY(122px);
+}
+.inputFild button {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 30px;
+    position: absolute;
+    left: 202px;
+    background: orange;
+}
+.inputFild input {
+    border: none;
+    padding: 10px;
+    width: 56%;
+    border-radius: 30px;
+}
+.inputFild input:focus{
+    outline: none;
+}
+@media screen and (max-width:780px) {
+    .OurBg {
+        background: #87ceeb6e;
+    }
+    .LetOur h1 {
+        font-size: 175%;
+    }
+    .LetOur {
+        padding: 15px;
+        text-align: center;
+    }
+    .inputFild {
+        transform: translateY(0px);
+        display: none;
+    }
+    .inputFild input {}
+    .inputFild button {
+
+    }
+}

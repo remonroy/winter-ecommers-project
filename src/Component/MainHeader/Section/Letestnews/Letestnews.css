@@ -1,0 +1,54 @@
+.letestLfeft h1 {
+    font-family: "Playfair Display",serif;
+    font-size: 68px;
+    font-weight: 700;
+}
+.letestLfeft p {
+    font-family: "Yellowtail",cursive;
+    text-shadow: 0 -3px 0 #fff;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 31px 0px;
+}
+.letestLfeft button {
+    border: none;
+    background: #333;
+    color: #fff;
+    padding: 17px 50px;
+    border-radius: 35px;
+    font-weight: bold;
+}
+.letestRight img {
+    width: 55%;
+    margin-left: 35%;
+}
+.letestLfeft {
+    margin-top: 26%;
+}
+@media screen and (max-width:780px) {
+    .letestLfeft h1 {
+        font-size: 42px;
+        text-align: center;
+    }
+    .letestLfeft {
+        margin-top: 2%;
+        margin-bottom: 10%;
+    }
+    .letestRight img {
+        width: 39%;
+        margin-left: 33%;    
+    }
+    .letestLfeft p {
+        text-align: center;
+        font-size: 20px;
+    }
+    .letestLfeft button {
+        border: none;
+        background: #333;
+        color: #fff;
+        padding: 8px 20px;
+        border-radius: 35px;
+        font-weight: bold;
+        margin-left: 30%;
+    }
+}

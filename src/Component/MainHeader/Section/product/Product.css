@@ -1,0 +1,86 @@
+.box {
+    padding: 0px;
+}
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #d3cece;
+    align-items: center;
+    margin-bottom: 42px;
+}
+
+.itmes {
+    display: flex;
+    width: 39%;
+    justify-content: space-between;
+    cursor: pointer;
+    border: 1px solid;
+    font-family: 'Font Awesome 5 Free';
+}
+.tab {
+    background: #ccc;
+    flex: 1;
+    text-align: center;
+}
+.active-tab {
+    background: none;
+    border: none;
+    flex: 1;
+    text-align: center;
+    border-bottom: none;
+    color: orange;
+}
+.content {
+    position: relative;
+    display: none;
+}
+.active-content {
+    display: block;
+}
+.title {
+    font-family: "Playfair Display",serif;
+    color: #000;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+/* New card design css */
+.newCard {
+    border: 1px solid;
+    box-sizing: border-box;
+    text-align: center;
+}
+.newCard img {
+    width: 100%;
+}
+.rating {
+    color: orange;
+}
+.newCard h5 {
+    color: #383838;
+    font-family: inherit;
+    font-style: italic;
+    margin-top: 16px;
+}
+del.secondSpan {
+    color: red;
+    margin-left: 9px;
+    font-size: 22px
+}
+span {
+    font-size: 22px;
+}
+@media screen and (max-width:780px) {
+    .title{
+        font-size: 27px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+    .contents{
+        padding: 30px;
+    }
+    .itmes {
+        margin-right: 10px;
+    }
+
+}

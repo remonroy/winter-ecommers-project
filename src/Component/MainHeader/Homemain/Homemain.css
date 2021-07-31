@@ -1,0 +1,62 @@
+
+.homeDescription{
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    font-size: 20px;
+    margin-top: 87px;
+    margin-left: 61px;
+}
+.homeDescription span{
+    font-family: 'Yellowtail', cursive;
+    font-size: 40px;
+    color: #2577fd;
+}
+.homeDescription h1 {
+    font-family: "Playfair Display",serif;
+    font-size: 98px;
+    font-weight: 700;
+    line-height: 1.1;
+    text-align:justify ;
+    color: #1f2022;
+}
+.headerImg img {
+    width: 97.2%;
+}
+.background{
+    background-image:url(../../../img/banner.jpg);
+    height:550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    
+}
+.homeDescription p {
+    font-style: italic;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: bold;
+    color: #313639;
+    text-transform: capitalize;
+}
+.homeDescription button {
+    border: none;
+    color: #fff;
+    background: #2577fd;
+    font-weight: bold;
+    padding: 10px 26px;
+    border-radius: 30px;
+}
+@media screen and (max-width:780px) {
+    .headerImg img {
+        display: none;
+    }
+    .homeDescription{
+        margin-left: 0px;
+        margin-top: 0px;
+        text-align: center;
+    }
+    .homeDescription h1 {
+        font-size: 70px;
+        text-align: center;
+    }
+}

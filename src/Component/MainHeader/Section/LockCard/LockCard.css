@@ -1,0 +1,53 @@
+.lockCard {
+    width: 88%;
+    text-align: center;
+    padding: 10px;
+    background: #ffffff9e;
+    position: relative;
+}
+.hoverCard {
+    position: absolute;
+    width: 100%;
+    background: #999793;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    /* display: none; */
+    transform: scale(0);
+    transition: 0.3s;
+}
+.lockCard:hover .hoverCard {
+    transform: scale(1);
+    transition: 0.3s;
+    display: grid;
+    place-items: center;
+    font-size: 43px;
+    color: #ddd;
+    cursor: pointer;
+}
+svg.svg-inline--fa.fa-box-open.fa-w-20 {
+    border: 2px solid #333;
+    padding: 9px;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+}
+svg.svg-inline--fa.fa-unlock.fa-w-14 {
+    border: 2px solid #333;
+    padding: 9px;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+}
+svg.svg-inline--fa.fa-sync.fa-w-16 {
+    border: 2px solid #333;
+    padding: 9px;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+}
+@media screen and (max-width:780px) {
+    .lockCard {
+        margin: auto;
+    }
+}

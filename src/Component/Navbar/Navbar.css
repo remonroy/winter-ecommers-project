@@ -1,0 +1,100 @@
+nav.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #f4ecec00;
+}
+nav.navbarTrans{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background:#f4ecec;
+}
+ul.navLinks {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    width: 78%;
+    margin: 0px;
+   
+}
+ul.navLinks li {
+    padding: 20px;
+}
+.home,
+.about,
+.skill,
+.contact,
+.signup{
+    text-decoration: none;
+    color: #333;
+    font-family: "Josefin Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: all .3s ease-out 0s;
+}
+a.signup {
+    border: 1px solid #0f0f0c;
+    padding: 6px;
+    border-radius: 10px;
+}
+.toogleIcon{
+    display: none;
+}
+@media screen and (max-width:780px) {
+    .toogleIcon{
+        display: block;
+        margin: 0px 10px;
+        background: none;
+        font-size: 28px;
+        border: none;
+        color: black;
+    }
+    ul.navLinks {
+        display: none;
+
+    }
+    nav.navbar {
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+        background:#f4ecec;
+        padding: 10px 0px;
+    }
+    .navbar img {
+        margin-left: 10px;
+    }
+    .navbarTrans img {
+        margin-left: 10px;
+    }
+    nav.navbarTrans{ 
+        justify-content: space-between;
+        padding: 10px 0px;
+    }
+    .mobileToogle{
+        display: block;
+        list-style: none;
+        position: absolute;
+        background: #151e4e;
+        width: 100%;
+        top: 64px;
+        line-height: 44px;
+        height: 252px;
+        padding: 10px;
+        transition:0.3s;
+        transform: scale(1);
+        
+    }
+    .home,
+    .about,
+    .skill,
+    .contact,
+    .signup{
+        width: 100%;
+        text-align: center;
+        display: block;
+        color: #fff;
+    }
+
+}
